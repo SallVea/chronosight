@@ -934,6 +934,10 @@ def _analyze_with_ai(
             last_exc = exc
             emsg     = str(exc)
             if "NOT_FOUND" in emsg or "404" in emsg or "no longer available" in emsg:
+                _warning(f"Model {active_model} tidak tersedia (404). Mencoba cadangan...")
+                continue   # Coba model berikutnya
+            elif "503" in emsg or "UNAVAILABLE" in emsg or "high demand" in emsg.lower() or "500" in emsg:
+                _warning(f"Model {active_model} sedang sibuk (503). Mencoba cadangan...")
                 continue   # Coba model berikutnya
             elif "PERMISSION_DENIED" in emsg or "API_KEY_INVALID" in emsg:
                 _error("API key tidak valid — periksa di https://aistudio.google.com/apikey")
