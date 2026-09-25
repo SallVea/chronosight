@@ -1,2 +1,20 @@
+# ChronoSight v2.0 — Dependencies
+# Instal semua dependensi: pip install -r requirements.txt
+
+# Terminal UI yang kaya
 rich>=13.0.0
+
+# Google Gemini AI SDK (MODERN — menggantikan google-generativeai yang deprecated)
 google-genai>=2.3.0
+
+# Ekstraksi EXIF & GPS dari gambar (JPEG, PNG, dll.)
+Pillow>=10.0.0
+
+# Ekstraksi metadata dari dokumen PDF
+pypdf>=4.0.0
+
+# Deteksi lembar tersembunyi di spreadsheet Excel (.xlsx)
+openpyxl>=3.1.0
+
+# Ekstraksi metadata dari dokumen Word (.docx)
+python-docx>=1.1.0

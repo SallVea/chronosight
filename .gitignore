@@ -13,8 +13,9 @@ build/
 venv/
 .venv/
 env/
+.env/
 
-# IDE
+# IDE & editor
 .idea/
 .vscode/
 *.swp
@@ -25,6 +26,7 @@ env/
 .DS_Store
 Thumbs.db
 
-# ChronoSight output
+# ChronoSight output files
 chronosight_timeline.json
-chronosight_analysis.md
+*_dfir_report.md
+*_laporan*.md

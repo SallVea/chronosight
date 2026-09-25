@@ -1,27 +1,26 @@
 """
-setup.py — ChronoSight Package Installer.
+setup.py — ChronoSight v2.0 Package Installer.
 
-Allows the tool to be installed globally or in a virtual environment via:
+Instal secara global atau dalam virtual environment:
     pip install .
-    pip install -e .   # editable / development mode
+    pip install -e .   # mode development (editable)
 
-After installation the ``chronosight`` command is available system-wide.
+Setelah instalasi, perintah ``chronosight`` tersedia langsung dari terminal.
 """
 
 from setuptools import setup, find_packages
 from pathlib import Path
 
-# Read the README for the long description on PyPI.
-this_dir = Path(__file__).parent
+this_dir         = Path(__file__).parent
 long_description = (this_dir / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="chronosight",
-    version="1.0.0",
+    version="2.0.0",
     author="ChronoSight Contributors",
     description=(
-        "AI-Powered Digital Artifact Timeline Extractor — "
-        "forensic metadata extraction and Gemini AI anomaly analysis."
+        "AI-Powered Deep Forensic Artifact & Case Investigator — "
+        "ekstraksi EXIF/PDF/hidden-sheet/teks & laporan DFIR Bahasa Indonesia via Gemini AI."
     ),
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -30,7 +29,6 @@ setup(
     classifiers=[
         "Development Status :: 4 - Beta",
         "Environment :: Console",
-        "Intended Audience :: Developers",
         "Intended Audience :: Information Technology",
         "Intended Audience :: System Administrators",
         "License :: OSI Approved :: MIT License",
@@ -42,13 +40,16 @@ setup(
         "Programming Language :: Python :: 3.13",
         "Topic :: Security",
         "Topic :: System :: Filesystems",
-        "Topic :: Utilities",
     ],
     python_requires=">=3.10",
     packages=find_packages(),
     install_requires=[
         "rich>=13.0.0",
-        "google-genai>=2.3.0",
+        "google-genai>=2.3.0",   # SDK modern (menggantikan google-generativeai yang deprecated)
+        "Pillow>=10.0.0",
+        "pypdf>=4.0.0",
+        "openpyxl>=3.1.0",
+        "python-docx>=1.1.0",
     ],
     entry_points={
         "console_scripts": [
@@ -56,13 +57,8 @@ setup(
         ],
     },
     keywords=[
-        "forensics",
-        "timeline",
-        "cybersecurity",
-        "gemini",
-        "ai",
-        "incident-response",
-        "dfir",
-        "malware-analysis",
+        "dfir", "forensics", "digital-forensics", "incident-response",
+        "exif", "metadata", "gemini", "ai", "cybersecurity", "timeline",
+        "malware-analysis", "hidden-sheet", "chain-of-custody",
     ],
 )

@@ -1,12 +1,19 @@
 """
-ChronoSight — AI-Powered Digital Artifact Timeline Extractor.
+ChronoSight v2.0 — AI-Powered Deep Forensic Artifact & Case Investigator.
 
-A forensic analysis tool that scans directories, extracts file metadata
-(MAC times, hashes, sizes), builds chronological timelines, and uses
-Google Gemini AI to identify suspicious anomalies such as timestamp
-manipulation, data exfiltration, and malware staging.
+Alat forensik digital berbasis CLI untuk Linux yang melakukan ekstraksi
+metadata mendalam dari artefak digital, menghitung hash kriptografis untuk
+chain-of-custody, dan menggunakan Google Gemini AI untuk menghasilkan
+laporan analisis kasus DFIR lengkap dalam Bahasa Indonesia.
+
+Jenis artefak yang didukung:
+    - Gambar (.jpg, .jpeg, .png, .bmp, .tiff, .gif)
+    - Dokumen PDF (.pdf)
+    - Spreadsheet Excel (.xlsx, .xls)
+    - Dokumen Word (.docx)
+    - Teks / Log / CSV (.txt, .log, .csv, .json, .xml, dll.)
 """
 
-__version__ = "1.0.0"
+__version__ = "2.0.0"
 __author__ = "ChronoSight Contributors"
 __license__ = "MIT"
