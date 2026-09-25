@@ -24,7 +24,7 @@ setup(
     ),
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/chronosight",
+    url="https://github.com/SallVea/chronosight",
     license="MIT",
     classifiers=[
         "Development Status :: 4 - Beta",
