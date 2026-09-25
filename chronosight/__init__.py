@@ -1,5 +1,5 @@
 """
-ChronoSight v2.0 — AI-Powered Deep Forensic Artifact & Case Investigator.
+ChronoSight v1.0 — AI-Powered Deep Forensic Artifact & Case Investigator.
 
 Alat forensik digital berbasis CLI untuk Linux yang melakukan ekstraksi
 metadata mendalam dari artefak digital, menghitung hash kriptografis untuk
@@ -14,6 +14,6 @@ Jenis artefak yang didukung:
     - Teks / Log / CSV (.txt, .log, .csv, .json, .xml, dll.)
 """
 
-__version__ = "2.0.0"
+__version__ = "1.0.0"
 __author__ = "ChronoSight Contributors"
 __license__ = "MIT"

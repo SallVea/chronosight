@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-ChronoSight v2.0 — AI-Powered Deep Forensic Artifact & Case Investigator.
+ChronoSight v1.0 — AI-Powered Deep Forensic Artifact & Case Investigator.
 
 Entry point utama dan engine forensik lengkap.
 
@@ -80,7 +80,7 @@ _BANNER = r"""[bold bright_green]
   ╚██████╗██║  ██║██║  ██║╚██████╔╝██║ ╚████║╚██████╔╝███████║██║╚██████╔╝██║  ██║   ██║
    ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ ╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝
 [/bold bright_green]
-[dim white]      ⟡ v2.0 · AI-Powered Deep Forensic Artifact & Case Investigator · DFIR Engine ⟡[/dim white]
+[dim white]      ⟡ v1.0 · AI-Powered Deep Forensic Artifact & Case Investigator · DFIR Engine ⟡[/dim white]
 [dim cyan]                    Digital Forensics & Incident Response  |  Bahasa Indonesia Report[/dim cyan]
 """
 
@@ -89,7 +89,7 @@ _BANNER = r"""[bold bright_green]
 # ============================================================
 
 def print_banner() -> None:
-    """Tampilkan banner ASCII ChronoSight v2.0."""
+    """Tampilkan banner ASCII ChronoSight v1.0."""
     console.print(_BANNER)
 
 

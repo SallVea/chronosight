@@ -1,5 +1,5 @@
 """
-setup.py — ChronoSight v2.0 Package Installer.
+setup.py — ChronoSight v1.0 Package Installer.
 
 Instal secara global atau dalam virtual environment:
     pip install .
@@ -16,7 +16,7 @@ long_description = (this_dir / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="chronosight",
-    version="2.0.0",
+    version="1.0.0",
     author="ChronoSight Contributors",
     description=(
         "AI-Powered Deep Forensic Artifact & Case Investigator — "

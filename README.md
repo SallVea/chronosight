@@ -1,4 +1,4 @@
-# ⚡ ChronoSight v2.0 ⚡
+# ⚡ ChronoSight v1.0 ⚡
 **AI-Powered Deep Forensic Artifact & Case Investigator**
 
 ![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)
@@ -7,7 +7,7 @@
 
 *(🇮🇩 Panduan Bahasa Indonesia tersedia di bagian bawah / Indonesian guide is available below)*
 
-ChronoSight v2.0 is a next-generation, open-source CLI digital forensics tool for Linux. It goes beyond simple timeline extraction by performing **deep, format-specific metadata extraction** and leveraging **Google Gemini AI** to produce comprehensive Digital Forensics and Incident Response (DFIR) case analysis reports in Indonesian.
+ChronoSight v1.0 is a next-generation, open-source CLI digital forensics tool for Linux. It goes beyond simple timeline extraction by performing **deep, format-specific metadata extraction** and leveraging **Google Gemini AI** to produce comprehensive Digital Forensics and Incident Response (DFIR) case analysis reports in Indonesian.
 
 ## 🚀 Key Features
 
@@ -103,7 +103,7 @@ chronosight -t /mnt/forensic_usb -s "Look for evidence of hidden financial recor
 
 # 🇮🇩 Panduan Bahasa Indonesia
 
-ChronoSight v2.0 adalah alat forensik digital CLI berbasis Linux sumber terbuka. Alat ini melampaui ekstraksi linimasa biasa dengan melakukan ekstraksi metadata mendalam spesifik format, serta menggunakan **Google Gemini AI** untuk menghasilkan laporan analisis insiden (DFIR) terstruktur.
+ChronoSight v1.0 adalah alat forensik digital CLI berbasis Linux sumber terbuka. Alat ini melampaui ekstraksi linimasa biasa dengan melakukan ekstraksi metadata mendalam spesifik format, serta menggunakan **Google Gemini AI** untuk menghasilkan laporan analisis insiden (DFIR) terstruktur.
 
 ## 🚀 Fitur Utama
 

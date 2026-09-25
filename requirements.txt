@@ -1,4 +1,4 @@
-# ChronoSight v2.0 — Dependencies
+# ChronoSight v1.0 — Dependencies
 # Instal semua dependensi: pip install -r requirements.txt
 
 # Terminal UI yang kaya
